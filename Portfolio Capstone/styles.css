@@ -1,0 +1,242 @@
+
+h1, h2{
+    text-align: center;
+    padding-top: 100px
+}
+
+h2{
+    padding-bottom: 110px
+}
+
+h2.lang{
+    font-weight: bold;
+    font-family: Andale Mono,AndaleMono,monospace;
+
+}
+
+.heading{
+    position: relative;
+    background-color: #525252;
+    color: white;
+    font-family: Andale Mono,AndaleMono,monospace;
+    width: 100%;
+    border-top: 3px solid black;
+    border-bottom:  3px solid black;
+    background: linear-gradient(270deg, #313131, #ca3e47, #525252);
+    background-size: 1000% 1000%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.corner{
+    top: 0;
+    right: 0;
+    position: absolute;
+    height: 100px;
+    padding-top: 10px;
+    padding-right: 12px
+}
+
+.corner-2{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    height: 100px;
+    transform: rotate(180deg);
+    margin-left: 10px;
+    margin-bottom: 10px
+}
+
+.navbar-nav {
+    margin-left: 10px;
+}
+
+
+.nav-item{
+    color: white;
+}
+
+.icon{
+    position: absolute;
+}
+
+.skills{
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+}
+
+.python{
+    height: 170px;
+}
+
+.cpp{
+    height: 180px;
+    padding-bottom: 0px;
+
+    z-index: -1;
+}
+
+li{
+    list-style: none;
+}
+
+
+.js{
+    height: 200px;
+    width: 220px;
+}
+
+.css{
+    height: 220px;
+    padding-top: 0px
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.foot{
+padding-top: 100px;
+gap: 50px;
+}
+
+.html{
+    height: 180px;
+    margin-top: 22px;
+}
+
+.section-2{
+    max-width: 750px;
+    margin: auto auto;
+    background-color: #ca3e47;
+    border: 10px solid black;
+    color: white;
+    border-radius: 15%;
+    box-shadow: 0px 0px 150px rgba(0, 0, 0, .75); 
+}
+.about{
+    background-color: white;
+}
+
+.intro{
+    background-color: white;
+    font-family: Andale Mono,AndaleMono,monospace;
+    padding-bottom: 20px;
+}
+
+
+
+.aboutpar{
+    font-family: Andale Mono,AndaleMono,monospace;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 20px;
+    padding-bottom:100px
+}
+
+.footer {
+    margin-top: 200px;
+    background-color: #ca3e47;
+    height: 300px;
+}
+
+
+.footer .foot {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.photo{
+    padding-top: 60px;
+    display: flex;
+    border-radius: 100%;
+    margin: 0 auto;
+    flex: 1;
+    max-width: 100%;
+}
+
+@media(max-width: 768px){
+    .aboutpar{
+        font-size: 14px;
+    }
+    
+.js{
+    height: 100px;
+    width: 110px;
+}
+
+.css{
+    height: 110px;
+    padding-top: 0px
+}
+.html{
+    height: 90px;
+    margin-top: 11px;
+}
+.python{
+    height: 85px;
+}
+
+.cpp{
+    height: 90px;
+    padding-bottom: 0px;
+    z-index: -1;
+}
+.section-2{
+    margin-left: px;
+    margin-right: 80px;
+}
+}
+
+@media(max-width: 920px){
+    .section-2{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+        
+.js{
+    height: 100px;
+    width: 110px;
+}
+
+.css{
+    height: 110px;
+    padding-top: 0px
+}
+.html{
+    height: 90px;
+    margin-top: 11px;
+}
+.python{
+    height: 85px;
+}
+
+.cpp{
+    height: 90px;
+    padding-bottom: 0px;
+    z-index: -1;
+}
+}
