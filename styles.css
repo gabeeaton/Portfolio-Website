@@ -160,11 +160,6 @@ li{
     margin-right: 30px;
     transition: transform 0.3s ease-in-out;
 }
-
-.icon{
-    animation: updown 3s ease infinite;
-    margin-bottom: 300px;
-}
 svg{ 
     transition: transform 0.3s ease-in-out;
 }
@@ -301,17 +296,3 @@ img:hover {
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
-
-@keyframes updown {
-    0% {
-      transform: translateY(-5%);
-    }
-  
-    50% {
-      transform: translateY(5%);
-    }
-  
-    100% {
-      transform: translateY(-5%);
-    }
-  }
